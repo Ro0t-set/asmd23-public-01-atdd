@@ -23,4 +23,6 @@ public class CalculatorTest {
         calculator.enter(3);
         assertThrows(IllegalStateException.class, () -> calculator.enter(5));
     }
+
+
 }
